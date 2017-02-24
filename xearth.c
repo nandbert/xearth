@@ -110,7 +110,7 @@ int      do_label;              /* label image                 */
 int      do_markers;            /* display markers (X only)    */
 char    *markerfile;            /* for user-spec. marker info  */
 char    *mapfile;               /* for image overlay file      */
-char    *overlayfile[MAX_OVERLAY]; /* for overlay file             */
+char    *overlayfile;           /* for overlay file             */
 int      overlay_count;         /* number of overlay files     */
 int      wait_time;             /* wait time between redraw    */
 double   time_warp;             /* passage of time multiplier  */

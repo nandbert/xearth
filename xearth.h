@@ -48,10 +48,10 @@
 
 #ifdef HAVE_X11
 #include <X11/Xos.h>
-#else
+#endif
 typedef unsigned char u_char;
 typedef unsigned short u_short;
-#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -338,7 +338,7 @@ extern int    do_label;
 extern int    do_markers;
 extern char  *markerfile;
 extern char  *mapfile;
-extern char  *overlayfile[MAX_OVERLAY];
+extern char  *overlayfile;
 extern int    overlay_count;
 extern int    wait_time;
 extern double time_warp;
